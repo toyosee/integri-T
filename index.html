@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Integri-T: Revolutionizing Agricultural Supply Chains</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <div class="navbar-brand">
+        <div class="navbar-brand" id="top">
             <a href="#"><img src="images/INTEGRI-T.png" alt="Integri-T Logo" class="img-fluid"></a>
           </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,42 +22,43 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#features">Key Features</a>
+            <a class="nav-link links" href="#features">Key Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#why-choose">Why Choose Integri-T?</a>
+            <a class="nav-link links" href="#why-choose">Why Choose Integri-T?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#community">Join Us</a>
+            <a class="nav-link links" href="#community">Join Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link links" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link links" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section id="hero" class="carousel slide" data-ride="carousel">
+ <!-- Hero Section -->
+<section id="hero" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/img3.jpg" class="d-block w-100" alt="Slide 1">
-        <div class="carousel-caption d-none d-md-block">
+        <img src="images/img2.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="carousel-caption d-none d-md-block text-shadow">
           <h1>Welcome to Integri-T</h1>
           <p>Your Solution for Transparent, Secure, and Sustainable Agriculture</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="images/img2.jpg" class="d-block w-100" alt="Slide 2">
-        <div class="carousel-caption d-none d-md-block">
+        <img src="images/blockchain.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="carousel-caption d-none d-md-block text-shadow">
           <h1>Welcome to Integri-T</h1>
           <p>Your Solution for Transparent, Secure, and Sustainable Agriculture</p>
         </div>
       </div>
+  
       <!-- Add more slides as needed -->
     </div>
     <a class="carousel-control-prev" href="#hero" role="button" data-slide="prev">
@@ -67,17 +69,18 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </section>
+  </section><br><br>
   
 
   <!-- Key Features Section -->
   <section id="features" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-4 features">Key Features</h2>
+      <h2 class="text-center mb-4 features"><strong>Key Features</strong></h2>
       <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image">
+                <!-- <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image"> -->
+                <i class="fas fa-solid fa-link fa-5x mt-4 mb-4 card-img-top" style="color: #3fbc45; text-align: center;"></i>
                 <div class="card-body">
                     <h3 class="card-title">Transparent Supply Chain and Traceability</h3>
                     <p class="card-text">Gain full visibility into the journey of your produce from farm to market with our blockchain-powered tracking system.</p>
@@ -88,7 +91,8 @@
     
         <div class="col-md-4">
             <div class="card">
-                <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image">
+                <!-- <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image"> -->
+                <i class="fas fa-solid fa-chart-line fa-5x mt-4 mb-4 card-img-top" style="color: #3fbc45; text-align: center;"></i>
                 <div class="card-body">
                     <h3 class="card-title">Instant Access To Data and Analytics</h3>
                     <p class="card-text">Say goodbye to manual record-keeping and delays in accessing crucial information. With Integri-T's real-time analytics, you can instantly access up-to-date data on the status and location of your produce, customers and clients, empowering you to make informed decisions on the fly.</p>
@@ -96,10 +100,10 @@
                 </div>
             </div>
         </div>
-    
         <div class="col-md-4">
             <div class="card">
-                <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image">
+                <!-- <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image"> -->
+                <i class="fas fa-solid fa-star-half-stroke fa-5x mt-4 mb-4 card-img-top" style="color: #3fbc45; text-align: center;"></i>
                 <div class="card-body">
                     <h3 class="card-title">Transparent Review Mechanism</h3>
                     <p class="card-text">Explore the power of reviews whether you are a farmer, buyer or stakeholder. Integri-T provides you with a robust review system to rate and review all services provided to ensure a transparent and sustainable supply chain.</p>
@@ -115,51 +119,147 @@
   <!-- Why Choose Section -->
   <section id="why-choose" class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-center mb-4 features">Why Choose Integri-T?</h2>
+      <h2 class="text-center mb-4 features"><strong>Why Choose Integri-T?</strong></h2>
       <!-- Add Carousel or Slider Here -->
-      
-   
+      <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <!-- <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image"> -->
+                <i class="fa-solid fa-compass fa-5x mt-4 mb-4 card-img-top" style="color: #3fbc45; text-align: center;"></i>
+                <div class="card-body">
+                    <h3 class="card-title"><strong class="links">TRACEABILITY</strong></h3>
+                    <p class="card-text">Gain full visibility into the journey of your produce from farm to market with our blockchain-powered tracking system.</p>
+                    <a href="#" class="btn intBtn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <div class="card">
+                <!-- <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image"> -->
+                <i class="fa-solid fa-lock-open fa-5x mt-4 mb-4 card-img-top" style="color: #3fbc45; text-align: center;"></i>
+                <div class="card-body">
+                    <h3 class="card-title"><strong class="links">TRANSPARENCY</strong></h3>
+                    <p class="card-text">Say goodbye to manual record-keeping and delays in accessing crucial information. With Integri-T's real-time analytics, you can instantly access up-to-date data on the status and location of your produce, customers and clients, empowering you to make informed decisions on the fly.</p>
+                    <a href="#" class="btn intBtn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <div class="card">
+                <!-- <img src="images/img2.jpg" class="card-img-top" alt="Feature 1 Image"> -->
+                <i class="fa-solid fa-shield fa-5x mt-4 mb-4 card-img-top" style="color: #3fbc45; text-align: center;"></i>
+                <div class="card-body">
+                    <h3 class="card-title"><strong class="links">SECURITY</strong></h3>
+                    <p class="card-text">Explore the power of reviews whether you are a farmer, buyer or stakeholder. Integri-T provides you with a robust review system to rate and review all services provided to ensure a transparent and sustainable supply chain.</p>
+                    <a href="#" class="btn intBtn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   </section>
 
   <!-- Join Us Section -->
   <section id="community" class="py-5">
     <div class="container">
-      <h2 class="text-center mb- features">Join the Integri-T Community Today</h2>
-      <form>
-        <div class="form-group">
-          <!-- <label for="email">Email Address</label> -->
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2 class="text-center mb-4 features">Join the Integri-T Community Today</h2>
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <button type="submit" id="sub" class="btn intBtn btn-lg btn-block">Subscribe</button>
+            </form>
+          </div>
         </div>
-        <button type="submit" class="btn intBtn  btn-lg">Subscribe</button>
-      </form>
-    </div>
+      </div>
+      
   </section>
 
   <!-- About Us Section -->
   <section id="about" class="py-5 bg-light">
     <div class="container">
       <h2 class="text-center mb-4 features">About Us</h2>
-      <p>Section highlighting Integri-T's mission, values, and commitment to sustainability and innovation</p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <i class="fas fa-users fa-5x mb-4" style="color: #3fbc45;"></i>
+              <h5 class="card-title"><strong class="links">Our Mission</strong></h5>
+              <p class="card-text">At Integri-T, we are driven by a strong commitment to revolutionize agricultural supply chains through transparency, security, traceability and sustainability.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <i class="fas fa-lightbulb fa-5x mb-4" style="color: #3fbc45;"></i>
+              <h5 class="card-title"><strong class="links">Our Values</strong></h5>
+              <ul class="list-unstyled">
+                <li class="text-muted mb-3"><i class="fas fa-check-circle text-success mr-2"></i> Sustainability</li>
+                <li class="text-muted mb-3"><i class="fas fa-check-circle text-success mr-2"></i> Transparency</li>
+                <li class="text-muted mb-3"><i class="fas fa-check-circle text-success mr-2"></i> Traceability</li>
+                <li class="text-muted"><i class="fas fa-check-circle text-success mr-2"></i> Innovation</li>
+                <li class="text-muted mb-3"><i class="fas fa-check-circle text-success mr-2"></i> Security</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-8 offset-md-2">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title"><strong class="links">Our Commitment</strong></h5>
+              <p class="card-text">We strive to create a world where farmers, buyers, and stakeholders can trust and rely on the integrity of every step in the agricultural supply chain.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+     
 
   <!-- Contact Us Section -->
   <section id="contact" class="py-5">
     <div class="container">
       <h2 class="text-center mb-4 features">Contact Us</h2>
-      <p>Details about contact</p>
-      <!-- Add Contact Form or Inquiry Button Here -->
+      <p class="text-center mb-4"><strong>Please fill out the form below to get in touch with us</strong></p>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn intBtn btn-lg btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
+  
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
     <div class="container">
       <p>&copy; 2024 Integri-T. All rights reserved.</p>
+      <a href="#top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i> <!-- Font Awesome icon for the up arrow -->
+      </a>
     </div>
   </footer>
 
+
+<script src="assets/script.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
