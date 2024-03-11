@@ -47,6 +47,10 @@ nav ul li a {
   transition: color 0.3s, background-color 0.3s; /* Add smooth transition */
 }
 
+.hero-text{
+  font-size: 40px;
+}
+
 #hero {
   /* background-image: url('/images/integriimg.jpg'); */
   /* background-size: cover;
